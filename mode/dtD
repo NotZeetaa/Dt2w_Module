@@ -1,0 +1,5 @@
+#!/system/bin/sh
+MODDIR=${0%/*}
+
+echo "0" > /sys/touchpanel/double_tap
+
